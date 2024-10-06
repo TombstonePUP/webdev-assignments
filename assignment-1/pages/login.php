@@ -43,7 +43,7 @@
         </section>
 
         <a>Forgot your password?</a>
-        <p>Don't have an account? <a href="login.php">Sign up for Spotify</a></p>
+        <p>Don't have an account? <a href="signup.php">Sign up for Spotify</a></p>
 
         <p>This site is protected by reCAPTCHA and the Google
             <a href="#"> Privacy Policy </a> and <a href="#"> Terms of Service </a> apply.
