@@ -203,7 +203,7 @@ footer {
     }
 }
 
-.log-container {
+.sign-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -243,7 +243,7 @@ footer {
         gap: 1vh;
         font-size: 0.7vw;
 
-        >input {
+        input {
             background: #121212;
             border: solid;
             border-color: #7C7C7C;
@@ -286,7 +286,7 @@ footer {
             flex: 1;
             height: 1px;
         }
-    }    
+    }
 
     .log-alts {
         gap: 0.5vw;
@@ -346,6 +346,125 @@ footer {
 
         a {
             color: #B3B3B3;
+        }
+    }
+}
+
+.gradient-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(42, 42, 42, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    height: 91.7vh;
+
+    >div {
+        background: #121212;
+        width: 38vw;
+        border-radius: 0.5vw;
+        gap: 0.5vw;
+        padding: 2vw 0vw;
+
+        a {
+            text-decoration: underline;
+
+        }
+
+        a:hover {
+            color: #1ED760;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-size: 1.5vw;
+        }
+
+        input {
+            background: #121212;
+            border: solid;
+            border-color: #7C7C7C;
+            border-width: 0.1vw;
+            border-radius: 0.3vw;
+            height: 5vh;
+            padding: 0vw 0.5vw;
+            color: #B3B3B3;
+            font-size: 0.8vw;
+        }
+
+        .inputs {
+            gap: 0.5vh;
+            font-weight: 600;
+            font-size: 0.7vw;
+
+            >input {
+                margin-bottom: 1vh;
+                font-weight: 600;
+            }
+
+            >div {
+                display: flex;
+                justify-content: end;
+
+                img {
+                    position: relative;
+                    height: 2.5vh;
+                    top: -5.5vh;
+                    right: 1vw;
+                    filter: grayscale(100);
+                }
+
+                img:hover {
+                    scale: 1.1;
+                    cursor: pointer;
+                }
+            }
+
+            button {
+                margin-bottom: 1vh;
+                background: #1ED760;
+            }
+
+            button:hover {
+                scale: 1.1;
+                background: #51cf7d;
+            }
+        }
+
+        .log-alts {
+            button {
+                border-width: 1px;
+                background: none;
+                border-color: #7C7C7C;
+            }
+
+            button:hover {
+                border-color: white;
+                background: none;
+            }
+        }
+
+        #line {
+            background: #2A2A2A;
+            width: 28vw;
+        }
+
+        >a:nth-last-child(3){
+            font-size: 0.8vw;
+        }
+
+
+        >p:nth-last-child(1) {
+            display: flex;
+            gap: 0.2vw;
+            justify-content: center;
+            align-items: center;
+            background: #121212;
+            height: 4vw;
+            width: 100vw;
+            margin: 0;
+
+            a:hover {
+                color: #B3B3B3;
+            }
         }
     }
 }

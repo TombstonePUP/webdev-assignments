@@ -174,7 +174,7 @@ footer button:hover {
   font-size: 1vw;
 }
 
-.log-container {
+.sign-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,16 +183,16 @@ footer button:hover {
   background: #121212;
   justify-content: space-between;
 }
-.log-container h1 {
+.sign-container h1 {
   font-size: 2.5vw;
   width: 18vw;
   text-align: center;
 }
-.log-container section {
+.sign-container section {
   display: flex;
   flex-direction: column;
 }
-.log-container button {
+.sign-container button {
   width: 18vw;
   border: solid;
   border-radius: 1.5vw;
@@ -201,16 +201,16 @@ footer button:hover {
   font-weight: bold;
   cursor: pointer;
 }
-.log-container p {
+.sign-container p {
   color: #B3B3B3;
 }
-.log-container section:nth-child(3) {
+.sign-container section:nth-child(3) {
   font-weight: 700;
   width: 18vw;
   gap: 1vh;
   font-size: 0.7vw;
 }
-.log-container section:nth-child(3) > input {
+.sign-container section:nth-child(3) input {
   background: #121212;
   border: solid;
   border-color: #7C7C7C;
@@ -221,17 +221,17 @@ footer button:hover {
   color: #B3B3B3;
   font-size: 0.8vw;
 }
-.log-container section:nth-child(3) > input:hover {
+.sign-container section:nth-child(3) > input:hover {
   border-color: white;
 }
-.log-container section:nth-child(3) > button {
+.sign-container section:nth-child(3) > button {
   border: solid;
   background: #1ED760;
 }
-.log-container section:nth-child(3) > button:hover {
+.sign-container section:nth-child(3) > button:hover {
   background: #51cf7d;
 }
-.log-container .partition {
+.sign-container .partition {
   padding: 1.5vw 0vw;
   font-size: 0.7vw;
   display: flex;
@@ -242,16 +242,16 @@ footer button:hover {
   align-items: center;
   gap: 0.5vw;
 }
-.log-container .partition > #line {
+.sign-container .partition > #line {
   content: " ";
   background: #B3B3B3;
   flex: 1;
   height: 1px;
 }
-.log-container .log-alts {
+.sign-container .log-alts {
   gap: 0.5vw;
 }
-.log-container .log-alts button {
+.sign-container .log-alts button {
   color: white;
   background: #121212;
   border-color: #B3B3B3;
@@ -261,38 +261,135 @@ footer button:hover {
   padding: 0vw 1vw;
   height: 5vh;
 }
-.log-container .log-alts button img {
+.sign-container .log-alts button img {
   height: 2.5vh;
 }
-.log-container .log-alts button > div {
+.sign-container .log-alts button > div {
   width: 20vw;
 }
-.log-container .log-alts > button:nth-last-child(1) img {
+.sign-container .log-alts > button:nth-last-child(1) img {
   filter: grayscale(80);
 }
-.log-container .log-alts button:hover {
+.sign-container .log-alts button:hover {
   border-color: white;
 }
-.log-container > #line {
+.sign-container > #line {
   content: " ";
   padding: 1px;
   background: #404040;
   margin: 1vw 0vw;
   width: 18vw;
 }
-.log-container p:nth-last-child(2) {
+.sign-container p:nth-last-child(2) {
   font-size: 0.8vw;
 }
-.log-container p:nth-last-child(2) a {
+.sign-container p:nth-last-child(2) a {
   color: white;
 }
-.log-container p:nth-last-child(1) {
+.sign-container p:nth-last-child(1) {
   position: absolute;
   bottom: 0;
   font-size: 0.7vw;
   width: 18vw;
   text-align: center;
 }
-.log-container p:nth-last-child(1) a {
+.sign-container p:nth-last-child(1) a {
+  color: #B3B3B3;
+}
+
+.gradient-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(42, 42, 42) 0%, rgb(0, 0, 0) 100%);
+  height: 91.7vh;
+}
+.gradient-body > div {
+  background: #121212;
+  width: 38vw;
+  border-radius: 0.5vw;
+  gap: 0.5vw;
+  padding: 2vw 0vw;
+}
+.gradient-body > div a {
+  text-decoration: underline;
+}
+.gradient-body > div a:hover {
+  color: #1ED760;
+  cursor: pointer;
+}
+.gradient-body > div h1 {
+  font-size: 1.5vw;
+}
+.gradient-body > div input {
+  background: #121212;
+  border: solid;
+  border-color: #7C7C7C;
+  border-width: 0.1vw;
+  border-radius: 0.3vw;
+  height: 5vh;
+  padding: 0vw 0.5vw;
+  color: #B3B3B3;
+  font-size: 0.8vw;
+}
+.gradient-body > div .inputs {
+  gap: 0.5vh;
+  font-weight: 600;
+  font-size: 0.7vw;
+}
+.gradient-body > div .inputs > input {
+  margin-bottom: 1vh;
+  font-weight: 600;
+}
+.gradient-body > div .inputs > div {
+  display: flex;
+  justify-content: end;
+}
+.gradient-body > div .inputs > div img {
+  position: relative;
+  height: 2.5vh;
+  top: -5.5vh;
+  right: 1vw;
+  filter: grayscale(100);
+}
+.gradient-body > div .inputs > div img:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.gradient-body > div .inputs button {
+  margin-bottom: 1vh;
+  background: #1ED760;
+}
+.gradient-body > div .inputs button:hover {
+  scale: 1.1;
+  background: #51cf7d;
+}
+.gradient-body > div .log-alts button {
+  border-width: 1px;
+  background: none;
+  border-color: #7C7C7C;
+}
+.gradient-body > div .log-alts button:hover {
+  border-color: white;
+  background: none;
+}
+.gradient-body > div #line {
+  background: #2A2A2A;
+  width: 28vw;
+}
+.gradient-body > div > a:nth-last-child(3) {
+  font-size: 0.8vw;
+}
+.gradient-body > div > p:nth-last-child(1) {
+  display: flex;
+  gap: 0.2vw;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  height: 4vw;
+  width: 100vw;
+  margin: 0;
+}
+.gradient-body > div > p:nth-last-child(1) a:hover {
   color: #B3B3B3;
 }/*# sourceMappingURL=style.css.map */

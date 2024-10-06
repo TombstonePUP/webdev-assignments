@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
-<body class="log-container">
+<body class="sign-container">
     <img id="main-icon" src="../assets/images/spotify-icon.png" alt="icon">
     <h1>Sign up to start listening</h1>
     <section>
@@ -44,7 +44,7 @@
     <p>Already have an account? <a href="login.php">Login here</a></p>
 
     <p>This site is protected by reCAPTCHA and the Google
-        <a href="">Privacy Policy</a> and <a href="">Terms of Service apply.</a>
+        <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.
     </p>
 </body>
 
