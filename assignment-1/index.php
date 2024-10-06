@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <a href="index.php"><img src="assets/images/spotify-icon.png" alt="icon"></a>
+        <a id="main-icon" href="index.php"><img src="assets/images/spotify-icon.png" alt="icon"></a>
         <div>
             <a href="index.php"><img src="assets/images/home-icon-focus.png" alt="icon"></a>
             <a class="search">
@@ -26,16 +26,16 @@
             </a>
         </div>
         <div>
-            <a href="pages/login.php">Sign Up</a>
-            <a href="pages/signup.php">Log In</a>
+            <a href="pages/signup.php">Sign Up</a>
+            <a href="pages/login.php">Log In</a>
         </div>
     </header>
 
     <section>
-       <div>
-        <h1><img src="" alt="library icon"></h1>
-       </div>
-       <div></div>
+        <div>
+            <!-- <h1><img src="" alt="library icon"></h1> -->
+        </div>
+        <div></div>
     </section>
 
     <footer>
