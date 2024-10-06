@@ -20,14 +20,23 @@
 
     <section class="partition">
         <div id="line"></div>
-        or
+        <div>or</div>
         <div id="line"></div>
     </section>
 
     <section class="log-alts">
-        <button><img src="../assets/images/google-icon.png" alt="">Sign up with Google</button>
-        <button><img src="../assets/images/fb-icon.png" alt="">Sign up with Facebook</button>
-        <button><img src="../assets/images/apple-icon.png" alt="">Sign up with Apple</button>
+        <button>
+            <img src="../assets/images/google-icon.png" alt="google-icon">
+            <div>Sign up with Google</div>
+        </button>
+        <button>
+            <img src="../assets/images/fb-icon.png" alt="fb-icon">
+            <div>Sign up with Facebook</div>
+        </button>
+        <button>
+            <img src="../assets/images/apple-icon.png" alt="apple-icon">
+            <div>Sign up with Apple</div>
+        </button>
     </section>
 
     <div id="line"></div>
