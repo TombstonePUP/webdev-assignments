@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Flow Circular";
-  src: url("assets/fonts/Flow_Circular/FlowCircular-Regular.ttf")
-    format("truetype");
+  src: url("assets/fonts/Flow_Circular/FlowCircular-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -10,6 +9,10 @@ body {
   font-family: "Flow Circular", sans-serif;
   background: black;
   color: #b3b3b3;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  overflow-y: hidden;
 }
 
 img {
@@ -66,7 +69,7 @@ header {
       border-color: #1f1f1f;
       border-width: 1px;
 
-      > img {
+      >img {
         height: 3.6vh;
       }
     }
@@ -76,7 +79,7 @@ header {
       justify-content: space-between;
       height: 3.5vh;
 
-      > div {
+      >div {
         align-items: center;
         font-size: 3vh;
         color: #7c7c7c;
@@ -93,6 +96,7 @@ header {
           font-size: 1.7vh;
           align-items: center;
           width: 20vw;
+          color: #b3b3b3;
         }
 
         input:hover {
@@ -145,7 +149,7 @@ header {
       height: 1vh;
     }
 
-    > a:nth-child(2) {
+    >a:nth-child(2) {
       margin-right: -1vw;
       color: black;
       background: white;
@@ -159,13 +163,15 @@ footer {
   bottom: 0;
   width: 100vw;
   left: 0;
-  padding: 0.5vw;
+  padding: 0vw 0vw 0.5vw;
   display: flex;
+  background: black ;
+  justify-content: center;
 
   a {
     border-radius: 0.5vw;
     height: 2vw;
-    width: 97vw;
+    width: 94vw;
     padding: 1vw;
     display: flex;
     flex-direction: row;
@@ -174,11 +180,9 @@ footer {
     color: white;
     font-size: 0.8vw;
     align-items: center;
-    background: linear-gradient(
-      90deg,
-      rgba(175, 40, 150, 1) 0%,
-      rgba(80, 155, 245, 1) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(175, 40, 150, 1) 0%,
+        rgba(80, 155, 245, 1) 100%);
 
     strong {
       font-size: 0.7vw;
@@ -257,16 +261,16 @@ footer {
       font-size: 0.8vw;
     }
 
-    > input:hover {
+    >input:hover {
       border-color: white;
     }
 
-    > button {
+    >button {
       border: solid;
       background: #1ed760;
     }
 
-    > button:hover {
+    >button:hover {
       background: #51cf7d;
     }
   }
@@ -282,7 +286,7 @@ footer {
     align-items: center;
     gap: 0.5vw;
 
-    > #line {
+    >#line {
       content: " ";
       background: #b3b3b3;
       flex: 1;
@@ -307,12 +311,12 @@ footer {
         height: 2.5vh;
       }
 
-      > div {
+      >div {
         width: 20vw;
       }
     }
 
-    > button:nth-last-child(1) {
+    >button:nth-last-child(1) {
       img {
         filter: grayscale(80);
       }
@@ -323,7 +327,7 @@ footer {
     }
   }
 
-  > #line {
+  >#line {
     content: " ";
     padding: 1px;
     background: #404040;
@@ -359,7 +363,7 @@ footer {
   background: linear-gradient(rgba(42, 42, 42, 1) 0%, rgba(0, 0, 0, 1) 100%);
   height: 91.7vh;
 
-  > div {
+  >div {
     background: #121212;
     width: 38vw;
     border-radius: 0.5vw;
@@ -396,12 +400,12 @@ footer {
       font-weight: 600;
       font-size: 0.7vw;
 
-      > input {
+      >input {
         margin-bottom: 1vh;
         font-weight: 600;
       }
 
-      > div {
+      >div {
         display: flex;
         justify-content: end;
 
@@ -448,11 +452,11 @@ footer {
       width: 28vw;
     }
 
-    > a:nth-last-child(3) {
+    >a:nth-last-child(3) {
       font-size: 0.8vw;
     }
 
-    > p:nth-last-child(1) {
+    >p:nth-last-child(1) {
       display: flex;
       gap: 0.2vw;
       justify-content: center;
@@ -482,12 +486,12 @@ footer {
     border-radius: 0.5vw;
   }
 
-  > div:nth-child(1) {
+  >div:nth-child(1) {
     display: flex;
     flex-direction: column;
     min-width: fit-content;
 
-    > div:nth-child(1) {
+    >div:nth-child(1) {
       display: flex;
       flex-direction: row;
       gap: 1vw;
@@ -506,7 +510,7 @@ footer {
       }
     }
 
-    > div:nth-child(2) {
+    >div:nth-child(2) {
       display: flex;
       /* flex-direction: column; */
       gap: 1.25vw;
@@ -520,9 +524,7 @@ footer {
       /*   background-color: #1f1f1f; */
       /* } */
 
-      div
-
-      /* :nth-child(1) */ {
+      div {
         display: flex;
         background-color: #1f1f1f;
         align-items: flex-start;
@@ -533,17 +535,17 @@ footer {
         text-wrap: wrap;
         flex-direction: column;
 
-        > a:nth-child(1) {
+        >a:nth-child(1) {
           color: white;
           font-weight: Bold;
         }
 
-        > a:nth-child(2) {
+        >a:nth-child(2) {
           color: white;
           font-weight: normal;
         }
 
-        > a:nth-child(3) {
+        >a:nth-child(3) {
           margin-right: -1vw;
           margin-top: 0.75vw;
           color: black;
@@ -559,7 +561,7 @@ footer {
       }
     }
 
-    > div:nth-child(3) {
+    >div:nth-child(3) {
       display: flex;
       flex-direction: column;
       gap: 1vw;
@@ -567,7 +569,7 @@ footer {
     }
   }
 
-  > div:nth-child(2) {
+  .list-containers {
     display: flex;
     flex-direction: column;
     overflow: scroll;
@@ -575,34 +577,44 @@ footer {
     padding: 2vh;
     font-weight: bold;
     color: white;
+    overflow-x: hidden;
+    padding: 2vw;
+    font-size: 1.2vw;
+    height: 80vh;
+    width: 80vw;
 
-    .index-grid-container {
-      display: grid;
+    >ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 0;
+      font-size: 0.8vw;
 
-      .index-category {
-        display: flex;
-        flex-direction: row;
-        background-color: #dc148c;
-        font-weight: bold;
-        overflow: hidden;
+      li {
+        list-style-type: none;
         color: white;
-        border-radius: 0.75vh;
-
-        /* height: 100%; */
-        /* width: 100%; */
-        a {
-          padding: 2vh 0vh 0vh 2vh;
-          font-size: 2vh;
-        }
-
-        img {
-          margin: 4vh 0vh 0vh 4vh;
-          height: 15vh;
-          width: 15vh;
-          border-radius: 0.2vw;
-          transform: rotate(35deg);
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+        gap: 1vw;
+        
+        p {
+          margin: -0.5vw 0vw;
+          color: #b3b3b3;
+          font-weight: 100;
         }
       }
+    }
+
+    .albums {
+      img {
+        background: white;
+        border-radius: 0.5vw;
+      }
+    }
+
+    img {
+      height: 24vh;
     }
   }
 }

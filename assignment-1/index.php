@@ -53,15 +53,110 @@
       <div>
       </div>
     </div>
-    <div>
-      <p>Popular artists</p>
-      <div class="index-grid-container">
-        <div class="index-category">
-          <a>Music</a>
-          <img src="assets/images/400x400.svg" alt="">
-        </div>
-      </div>
+    <div class="list-containers">
+      Popular Artists
+      <ul>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+      </ul>
+
+      Popular Albums
+      <ul class="albums">
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Assignment 1
+          <p>Blue Rhinos</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Assignment 2
+          <p>Blue Rhinos</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Assignment 3
+          <p>Blue Rhinos</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Assignment 4
+          <p>Blue Rhinos</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Assignment 5
+          <p>Blue Rhinos</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Assignment 6
+          <p>Blue Rhinos</p>
+        </li>
+      </ul>
+
+      Popular Radio
+      <ul>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+        <li>
+          <img src="assets/images/webdev-logo.png" alt="">
+          Blue Rhinos
+          <p>Artist</p>
+        </li>
+      </ul>
     </div>
+
   </section>
 
   <footer>
