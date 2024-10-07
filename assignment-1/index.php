@@ -51,6 +51,20 @@
         </div>
       </div>
       <div>
+        <div>
+          <a>Legal</a>
+          <a>Safety&Privacy Center</a>
+          <a>Privacy Policy</a>
+          <a>Cookies</a>
+          <a>About Ads</a>
+          <a>Accessibility</a>
+        </div>
+        <p>Cookies</p>
+        <div>
+          <img src="assets/images/locale.png" alt="">
+          English
+        </div>
+      </div>
       </div>
     </div>
     <div class="list-containers">
